@@ -1,5 +1,5 @@
 body {
-    background: rgb(66, 66, 66);
+    background: #032b43;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -10,14 +10,17 @@ a {
     display: inline-block;
     text-decoration: none;
 }
+
 .pages {
+    align-items: center;
     background: black;
     padding: 50px;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 .pages ul {
-    text-align: center;
+    text-align: right;
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -25,13 +28,30 @@ a {
 
 .pages li {
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 30px;
 }
 
 .pages a {
     font-size: 35px;
 }
 
+.logo {
+    color:#fff;
+    font-size: 35px;
+}
+
+.hero {
+    align-items: center;
+    display: grid;
+    font-size: 40px;
+    height: calc(100vh - 140px);
+    justify-items: center;
+    text-align: center;
+}
+
+.hero * {
+    margin: 0;
+}
 
 .games a:hover, .pages a:hover {
     color: orange;
@@ -40,10 +60,6 @@ a {
 
 .page_title {
   font-size: 40px;  
-}
-
-.logo {
-    text-align: center;
 }
 
 .games > * {
