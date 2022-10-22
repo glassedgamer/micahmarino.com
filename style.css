@@ -5,10 +5,15 @@ body {
     margin: 0;
     padding: 0;
 }
+
 a {
     color: white;
     display: inline-block;
     text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .pages {
@@ -53,21 +58,47 @@ a {
     margin: 0;
 }
 
-.games a:hover, .pages a:hover {
+.mybutton {
+    font-size: 24px;
+    color: #151D21;
+    background: orange;
+    display: inline-flex;
+    padding: 6px;
+    margin-top: 30px;
+    margin-right: 5%;
+    margin-left: 5%;
+    border: none;
+    border-radius: 5px;
+}
+
+.mybutton:hover {
+    font-size: 25px;
+    background: gray;
+}
+
+.games a:hover, .pages a:hover, .about a:hover {
     color: orange;
-    text-decoration: underline;
 }
 
 .page_title {
-  font-size: 40px;  
+  font-size: 40px;
+  text-align: center;  
 }
 
-.games > * {
+.games > *, .Art > *, .about > * {
     display: block;
     margin: 40px auto 0;
     text-align: center;
 }
 
-.games p {
+.games p, .Art p, .about  {
     margin: 10px;
+}
+
+.footer {
+    margin: 75px;
+}
+
+#Micah, #bout {
+    margin: 15px;
 }
