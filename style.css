@@ -85,13 +85,13 @@ a {
   text-align: center;  
 }
 
-.games > *, .Art > *, .about > * {
+.games > *, .Art > *, .about > *, .music > * {
     display: block;
     margin: 40px auto 0;
     text-align: center;
 }
 
-.games p, .Art p, .about  {
+.games p, .Art p, .about, .music p  {
     margin: 10px;
 }
 
