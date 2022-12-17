@@ -76,7 +76,7 @@ a {
     background: gray;
 }
 
-.games a:hover, .pages a:hover, .about a:hover {
+.games a:hover, .pages a:hover, .about a:hover, .music a:hover {
     color: orange;
 }
 
